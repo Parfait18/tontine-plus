@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 33 100% 50%;    /* Orange */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 70% 20%;  /* Bleu nuit */
+  --secondary-foreground: 0 0% 100%;
+  --background: 0 0% 100%;   /* Blanc */
+  --foreground: 220 70% 20%;
+  
+  /* Autres variables conservées... */
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
